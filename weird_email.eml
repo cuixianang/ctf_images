@@ -1,0 +1,17 @@
+From: "Principal Tan" <principal@school.edu>
+Reply-To: scammer@evil.com
+To: student@example.com
+Subject: URGENT: Update Your School Account
+Date: Fri, 05 Apr 2024 15:26:00 +0800
+MIME-Version: 1.0
+Content-Type: text/html
+
+<html>
+  <body>
+    <p>Dear Student,</p>
+    <p>We noticed suspicious activity in your school account. Please <a href="http://fake-school-security.com/update">click here</a> to update your details immediately.</p>
+    <p>If you do not respond within 24 hours, your account will be suspended.</p>
+    <img src="http://attacker.com/track?data=SUdOSVRFe2hpZGRlbl9pbl9waXhlbH0" width="1" height="1" />
+    <p>Sincerely,<br>Principal Tan</p>
+  </body>
+</html>
